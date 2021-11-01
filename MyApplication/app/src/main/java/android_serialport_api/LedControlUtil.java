@@ -26,7 +26,7 @@ public class LedControlUtil {
     private Boolean LedFlag = false;
     private Boolean LedType = false;  //true is means 2 Side LED bar,false is means 52 LED bar
 
-
+    // --- Start of my code ---
 
     public void ledLoop(ColorOption oldColor, ColorOption newColor) {
         for (int i = 0; i < 60; i++) {                                          // 60 because when 52, it does not always complete full loop.
@@ -103,6 +103,7 @@ public class LedControlUtil {
         return null;
     }
 
+    // --- End of my code ---
 
 
     public void setLedOn(int color) {
